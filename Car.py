@@ -23,6 +23,7 @@ class Car:
         if self.time != 0:
             return self.odometer / self.time
 
+
 if __name__ == '__main__':
     my_car = Car()
     print("I'm a car!")
