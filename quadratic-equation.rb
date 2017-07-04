@@ -9,6 +9,7 @@ class QuadraticEquation
     p "insert third quotient"
     c = gets.to_f
 
+
     discriminant = b**2 - 4 * a * c
     square_root = Math.sqrt(discriminant)
 
