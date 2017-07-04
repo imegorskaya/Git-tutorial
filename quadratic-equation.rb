@@ -28,6 +28,7 @@ class QuadraticEquation
       x = (-b / (2 * a))
       p "D = #{discriminant}, x1 = x2 = #{x}"
     else
+
       p "D = #{discriminant}, no roots"
     end
   end
